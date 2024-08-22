@@ -1,0 +1,303 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: "Raleway", sans-serif;
+}
+
+ul li {
+    display: inline-block;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+p {
+    font-size: 18px;
+    line-height: 27px;
+}
+
+button {
+    color: #598D66;
+    cursor: pointer;
+    border: 1px solid #598D66;
+}
+
+.container {
+    max-width: 1110px;
+    margin: 0 auto;
+}
+
+.header { 
+    background-color: #E1EDE6;
+}
+
+.header__container {
+    padding: 30px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__nav {
+    display: flex;  
+    color: #2C2D35; 
+}
+
+.header__nav-list {
+    display: flex;
+    gap: 60px;
+} 
+
+.nav__link {
+    color: #2C2D35;
+}
+.header__cart {
+    margin-left: 60px;
+} 
+
+.hero__container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 70px;
+}
+
+.hero__content {
+    margin-left: 30px;
+}
+
+.hero__title,
+.hero__title-highlight {
+    font-size: 60px;
+} 
+
+.hero__title {
+    color: #2C2D35;
+    margin-bottom: 20px;
+} 
+
+.hero__title-highlight {
+    color: #598D66;
+}
+
+.hero__description {
+    color: #86928B;
+    margin-bottom: 60px;
+}
+
+.hero__button {
+    padding: 20px 60px;
+    align-self: center;
+    background-color: white;
+}
+
+.reproductions__menu {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.reproductions__title {
+    display: inline-block;
+}
+
+.reproductions__filters{
+    display: flex;
+    gap: 32px;
+}
+
+.reproductions__filter-button {
+    align-self: center;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    color: black;
+    background-color: #D4E8D9;
+}
+
+.reproductions__filter-button--active {
+    color: white;
+    background-color: #376B44;
+}
+
+.reproductions__list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-bottom: 70px;
+}
+
+.reproduction-card {
+    width: 350px;
+    height: 730px;
+    background-color: #E1EDE6;
+}
+
+.reproduction-card > * {
+    margin-left: 20px;
+}
+
+.reproduction-card__image {
+    width: 310px;
+    height: 422px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    transition: transform 0.5s ease;
+}
+
+.reproduction-card__author {
+    font-size: 18px;
+    color: #86928B;
+    margin-bottom: 10px;
+}
+
+.reproduction-card__title {
+    font-size: 30px;
+    margin-bottom: 8px;
+}
+
+.reproduction-card__details {
+    margin-bottom: 30px;
+}
+
+.reproduction-card__price {
+    color: #598D66;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.reproduction-card__button {
+    width: 310px;
+    height: 65px;
+    background-color: #E1EDE6;
+}
+
+.promo {
+    background-image: url(../images/promo-background.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: white;
+}
+
+.promo__container {
+    display: flex;
+    flex-direction: column;
+} 
+
+.promo__header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-top: 70px; 
+    max-width: 521px;
+}
+
+.promo__logo {
+    width: 80px;
+    height: 80px;
+    margin-right: 20px;
+}
+
+.promo__title {
+    line-height: 40px;
+}
+
+.promo__description {
+    max-width: 540px;
+    height: 209px;
+    line-height: 22.4px;
+    margin-bottom: 60px;
+}
+
+.promo-button {
+    color: black;
+    width: 257px;
+    height: 65px;
+    border: none;
+    background-color: #EEDB6D;
+    margin-bottom: 70px;
+}
+
+.about__container {
+    margin-top: 70px;
+    margin-bottom: 70px;
+    display: flex;
+}
+
+.about__content {
+    margin-left: 30px;
+    margin-top: 124px;
+}
+
+.about__title {
+    margin-bottom: 20px;
+}
+
+.about__description {
+    line-height: 27px;
+    margin-bottom: 20px;
+}
+
+.about__team {
+    display: flex;
+    gap: 30px;
+}
+
+.about__team_pic {
+    width: 80px;
+    height: 80px;
+}
+
+.footer {
+    background-color: #E1EDE6;
+}
+
+.footer__container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__content {
+    margin: 23px 0px;
+}
+
+.footer__column {
+    display: flex;
+    flex-direction: column;
+    margin: 23px 0px;
+}
+
+.footer__logo {
+    margin-bottom: 35px;
+}
+
+.footer__title {
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+
+.footer__subtitle {
+    color: #86928B;
+    margin-bottom: 6px;
+}
+
+.footer__column-center {
+    display: flex;
+    gap: 60px;
+}
+
+.footer__socials {
+    display: flex;
+    gap: 30px;
+    margin-bottom: 10px;
+}
+
+.footer__trademark .footer__subtitle{
+    font-size: 12px;
+    margin-bottom: 0px;
+}
